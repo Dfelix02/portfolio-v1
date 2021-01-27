@@ -1,19 +1,25 @@
 import React from "react";
+import "./css/Header.css";
 import "semantic-ui-css/semantic.min.css";
-import { Button, Menu } from "semantic-ui-react";
 
 function Header() {
   return (
-    <div>
-      <Menu inverted>
-        <Button inverted color="white">
-          David
-        </Button>
-        <Menu.Item name="home" position="right" />
-        <Menu.Item name="messages" />
-        <Menu.Item name="friends" />
-      </Menu>
-    </div>
+    <ul className="nav">
+      <li>
+        <a href="#home">
+          <i className="home icon"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#about_me">About me</a>
+      </li>
+      <li>
+        <a href="#projects"> Projects</a>
+      </li>
+      <li>
+        <a href="#contact_me">Contact me </a>
+      </li>
+    </ul>
   );
 }
 

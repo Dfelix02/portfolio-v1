@@ -4,9 +4,12 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Banner />
+    <div className="app">
+      <div className="banner_header">
+        <Header />
+        <Banner />
+      </div>
+
       {/* header */}
       {/* banner */}
       {/* projects */}
