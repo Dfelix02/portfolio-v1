@@ -18,12 +18,12 @@ function Banner() {
 
       <ul className="icons">
         <li>
-          <a href="#">
+          <a href="#alo">
             <i className="large github icon inverted" />
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="#aa">
             <i className="large linkedin icon inverted" />
           </a>
         </li>
