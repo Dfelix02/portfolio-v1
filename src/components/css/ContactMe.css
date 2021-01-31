@@ -1,0 +1,12 @@
+.contactMe_form {
+  border: 1px solid olive;
+  border-radius: 4px;
+  padding: 25px;
+  width: 150px;
+}
+
+.contactMe_footer {
+  height: 100px;
+  background: olive;
+  margin-top: 40px;
+}

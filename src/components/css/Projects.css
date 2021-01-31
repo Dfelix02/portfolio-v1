@@ -1,4 +1,36 @@
 .projects_container {
   margin-left: 20px;
+  margin-right: 20px;
   text-align: "center";
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+.projects_liveHeader {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: olive;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.projects_notlive {
+  margin-top: 40px;
+}
+.projects_live {
+  margin-top: 40px;
+}
+.projects_footer {
+  height: 100px;
+  background: olive;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
