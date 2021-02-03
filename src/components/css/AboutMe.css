@@ -1,8 +1,9 @@
 .about_container {
-  margin-left: 60px;
-  margin-right: 60px;
-  margin-top: 20px;
-  position: relative;
+  border: 1px solid olive;
+  border-radius: 4px;
+  padding: 25px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .about_title {
   text-transform: capitalize;

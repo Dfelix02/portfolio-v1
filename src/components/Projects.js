@@ -40,7 +40,12 @@ function Projects() {
             <Grid.Row>
               <Grid.Column>
                 <Card
-                  style={{ marginTop: "10px", height: "100%", width: "100%" }}
+                  style={{
+                    marginTop: "10px",
+                    height: "100%",
+                    width: "100%",
+                    background: "rgb(128, 128, 1, 0.5)",
+                  }}
                 >
                   <Card.Content>
                     <Image src={remembermeImage} size="massive"></Image>
@@ -61,7 +66,6 @@ function Projects() {
                         inverted
                         trigger={
                           <Button
-                            basic
                             color="blue"
                             href="https://github.com/Dfelix02/RememberMe_Front_end"
                             target="_blank"
@@ -78,7 +82,6 @@ function Projects() {
                         content={"Back-end Repo"}
                         trigger={
                           <Button
-                            basic
                             color="red"
                             href="https://github.com/Dfelix02/RememberMe_Back_end"
                             target="_blank"
@@ -94,7 +97,6 @@ function Projects() {
                         content={"Demo"}
                         trigger={
                           <Button
-                            basic
                             color="red"
                             href="https://drive.google.com/file/d/1c4kQpFT2Py4COSX8jkcvylh5Lg2n_ZMT/view"
                             target="_blank"
@@ -110,7 +112,12 @@ function Projects() {
               </Grid.Column>
               <Grid.Column>
                 <Card
-                  style={{ marginTop: "10px", height: "100%", width: "100%" }}
+                  style={{
+                    marginTop: "10px",
+                    height: "100%",
+                    width: "100%",
+                    background: "rgb(128, 128, 1, 0.5)",
+                  }}
                 >
                   <Card.Content>
                     <Image src={covidImage} size="massive"></Image>
@@ -132,7 +139,6 @@ function Projects() {
                         inverted
                         trigger={
                           <Button
-                            basic
                             color="blue"
                             href="https://github.com/Dfelix02/covid-19-tracker"
                             target="_blank"
@@ -148,7 +154,6 @@ function Projects() {
                         inverted
                         trigger={
                           <Button
-                            basic
                             color="red"
                             href="https://drive.google.com/file/d/1bBhK-Bw0eTU_dYF0XYFDerF05a1chvxx/view"
                             target="_blank"
@@ -178,7 +183,12 @@ function Projects() {
             <Grid.Row>
               <Grid.Column>
                 <Card
-                  style={{ marginTop: "10px", height: "100%", width: "100%" }}
+                  style={{
+                    marginTop: "10px",
+                    height: "100%",
+                    width: "100%",
+                    background: "rgb(128, 128, 1, 0.5)",
+                  }}
                 >
                   <Card.Content>
                     <Image src={twoChanImage} size="massive"></Image>
@@ -200,7 +210,6 @@ function Projects() {
                         inverted
                         trigger={
                           <Button
-                            basic
                             color="blue"
                             href="https://github.com/Dfelix02/2chan-client"
                             target="_blank"
@@ -216,7 +225,6 @@ function Projects() {
                         position="top center"
                         trigger={
                           <Button
-                            basic
                             color="yellow"
                             href="https://github.com/Dfelix02/2chan-server"
                             target="_blank"
@@ -232,7 +240,6 @@ function Projects() {
                         position="top center"
                         trigger={
                           <Button
-                            basic
                             color="red"
                             href="https://2chan.netlify.app/"
                             target="_blank"
@@ -248,7 +255,12 @@ function Projects() {
               </Grid.Column>
               <Grid.Column>
                 <Card
-                  style={{ marginTop: "10px", height: "100%", width: "100%" }}
+                  style={{
+                    marginTop: "10px",
+                    height: "100%",
+                    width: "100%",
+                    background: "rgb(128, 128, 1, 0.5)",
+                  }}
                 >
                   <Card.Content>
                     <Image src={netfloxImage} size="massive"></Image>
@@ -279,7 +291,6 @@ function Projects() {
                         inverted
                         trigger={
                           <Button
-                            basic
                             color="blue"
                             href="https://github.com/Dfelix02/Netflox"
                             target="_blank"
@@ -295,7 +306,6 @@ function Projects() {
                         inverted
                         trigger={
                           <Button
-                            basic
                             color="red"
                             href="https://netflox-d7a44.web.app/"
                             target="_blank"

@@ -6,13 +6,15 @@
 html {
   scroll-behavior: smooth;
 }
+.app {
+  background-color: #dddddd;
+}
 h1 {
   text-align: center;
   width: 100%;
   margin-top: 20px;
 }
 .banner_header {
-  /* top: 0; */
   background: url("./components/images/Unsplash_Szabolcs_Toth.jpg");
   background-size: cover;
 }

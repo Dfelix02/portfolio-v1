@@ -12,7 +12,6 @@
   padding-bottom: 40px;
   scroll-behavior: smooth;
 }
-
 .nav > a {
   padding: 10px 15px;
   padding-top: 0;
@@ -24,19 +23,26 @@
   color: #fff;
   text-decoration: none;
   background-color: transparent;
+  font-size: 12px;
 }
 .nav > a:active {
+  text-decoration: none !important;
   color: white;
 }
-/* .nav a:visited {
+.nav a:visited {
   color: white;
-} */
+  text-decoration: none;
+}
 .nav a:hover {
   color: white;
-  text-decoration: underline;
 }
 
 .nav_black {
   background-color: olive;
   padding-bottom: 40px;
+}
+@media (min-width: 1024px) {
+  .nav a:hover {
+    text-decoration: underline;
+  }
 }
